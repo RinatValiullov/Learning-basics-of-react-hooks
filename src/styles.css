@@ -1,0 +1,27 @@
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #adf;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.center-block {
+  border: none;
+  border-radius: 5px;
+  background-color: #77e;
+  color: #fff;
+  padding: 5px 10px;
+}
