@@ -8,7 +8,7 @@ function App() {
   let [time, setTime] = useState(new Date());
 
   useEffect(() => {
-    console.log("useEffect hook here!");
+    console.log("useEffect here " + count);
   }, [count]);
 
   let handleClick = () => {
